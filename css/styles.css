@@ -1,0 +1,35 @@
+
+
+.image {
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../img/banner.jpg");
+    height: 100vh;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay {
+    position: absolute;
+    height:100%;
+    width: 100%;
+    top:0;
+    left:0;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.overlay h1 {
+    font-size: 65px;
+    letter-spacing: 2px;
+    margin: 0 0 5px;
+    
+}
+
+.overlay p {
+    margin:0;
+    font-size: 26px;
+}
