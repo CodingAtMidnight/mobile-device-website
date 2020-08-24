@@ -23,13 +23,35 @@
 }
 
 .overlay h1 {
-    font-size: 65px;
+    font-size: 95px;
     letter-spacing: 2px;
     margin: 0 0 5px;
+    font-family: 'Luckiest Guy', cursive;
     
 }
 
 .overlay p {
     margin:0;
-    font-size: 26px;
+    font-size: 46px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.part1 {
+    background-color: #011627;
+    height: 937px;
+}
+
+.part2 {
+    background-color: #41ead4;
+    height: 937px;
+}
+
+.part3 {
+    background-color: #fdfffc;
+    height: 937px;;
+}
+
+.part4 {
+    background-color: #ff9f1c;
+    height: 937px;
 }
